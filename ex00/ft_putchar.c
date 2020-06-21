@@ -6,7 +6,7 @@
 /*   By: kmakhuba <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/21 16:15:41 by kmakhuba          #+#    #+#             */
-/*   Updated: 2020/06/21 16:18:16 by kmakhuba         ###   ########.fr       */
+/*   Updated: 2020/06/21 16:33:42 by kmakhuba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <inistd.h>
@@ -15,5 +15,5 @@ int ft_putchar (char c)
 
 {write(1, &c, 1);
 
-	return (0);
+	return 0;
 }
