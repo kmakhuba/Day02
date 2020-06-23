@@ -6,16 +6,9 @@
 /*   By: kmakhuba <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/21 15:36:49 by kmakhuba          #+#    #+#             */
-/*   Updated: 2020/06/21 16:35:14 by kmakhuba         ###   ########.fr       */
+/*   Updated: 2020/06/23 11:01:37 by kmakhuba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
-
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
 
 void	ft_print_alphabet(void)
 {
@@ -28,8 +21,4 @@ void	ft_print_alphabet(void)
 		ch++;
 		}
 }
-int 	main()
-{
-	ft_print_alphabet();
-	return 0;
-}
+
