@@ -6,11 +6,14 @@
 /*   By: kmakhuba <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/23 15:13:09 by kmakhuba          #+#    #+#             */
-/*   Updated: 2020/06/23 15:16:44 by kmakhuba         ###   ########.fr       */
+/*   Updated: 2020/06/23 15:40:36 by kmakhuba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-void	ft_putchar(char c);
+#include <unistd.h>
+void	ft_putchar(char c)
+{
+	write(1,&c, 1);
+}
 
 void	ft_print_3_char(char a, char b, char c)
 {
@@ -46,5 +49,10 @@ void	ft_print_comb(void)
 		}
 		a++;
 	}
+}
+int main ()
+{
+	ft_print_comb();
+	return 0;
 }
 
